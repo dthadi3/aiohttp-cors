@@ -4,8 +4,10 @@ python:
 - 3.6
 
 #power_jobs
-arch: ppc64le
-
+arch: 
+  - ppc64le
+  - AMD64
+  
 # TODO: Use Travis apt addon, when chromium-chromedriver will be supported
 # three: https://github.com/travis-ci/apt-package-whitelist/issues/574
 before_install:
